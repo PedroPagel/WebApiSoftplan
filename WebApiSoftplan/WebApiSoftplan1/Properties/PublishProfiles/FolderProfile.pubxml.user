@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\pedro\source\repos\WebApiSoftplan\WebApiSoftplan1\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2021-04-30T10:58:00.4873428Z;True|2021-04-29T22:19:52.9452047-03:00;True|2021-04-29T20:47:00.5600071-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".dockerignore">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Dockerfile">
+      <publishTime>04/29/2021 22:04:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
