@@ -1,26 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrD8CIYaC4fKZfI48LtvK+PLVkD5OEjPFcYAON2nxNG+BOFuPrWHAKiYBRwoHMzOyIFtcQkNpyhEPliizwejxA==",
-  "success": false,
+  "dgSpecHash": "ttH7IyDrbROaIyhnml39gOV8CDVpKtzwsfsqt43Sl2Z4LGzSgo7WiRjQbZmilce1A3V2YaPIsuA5Z5ID6Vejmg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

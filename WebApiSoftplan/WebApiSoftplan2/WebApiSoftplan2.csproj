@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Repositories\Services.csproj" />
     <ProjectReference Include="..\WebApiSoftplan1\WebApiSoftplan1.csproj" />
   </ItemGroup>
 
