@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f8v4218meWeHhOJ3hOWvawvfWo7OWfT3pXY3UrapmdyBOPPH6QCcPWw+HKA8miFe0rVPr44wqIH0ohlK9CSNWw==",
+  "dgSpecHash": "6XLalsKzp9mwBMOrp2f6EqbQ4EPP4LEoffY/hpwsEgC4KclwqwBimDkwvLiZBBkNNgZtq+XajL9yG+f5f6jJMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

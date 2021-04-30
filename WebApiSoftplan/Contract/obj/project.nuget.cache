@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0UYESRXOaIHhPAJZtwqlVtDyb0x2A8xkY7MCs7gKUKps0WOSOvM01rL+iLGjuikmNSYib3Oj5U+fQFzaf20Hw==",
+  "dgSpecHash": "Bp0P8HxcyKaoY3ger0vcVFugt0ghJkOC0MQmbXIHnurnnvRorvkTFxCEsC+ONyLsd22RNZARxTvzRvrI9Qo5rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

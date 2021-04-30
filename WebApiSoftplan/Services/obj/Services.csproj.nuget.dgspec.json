@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj": {}
+    "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj": {
+    "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj",
+        "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj": {
+    "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj",
+        "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj": {
-                "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj"
+              "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj": {
+                "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj"
               }
             }
           }

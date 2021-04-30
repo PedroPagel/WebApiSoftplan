@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj",
       "projectName": "Contract",
-      "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\Contract.csproj",
+      "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\Contract.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Contract\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Contract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",

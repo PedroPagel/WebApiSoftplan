@@ -29,15 +29,6 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -92,36 +83,12 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Contract.dll": {}
-        }
-      },
-      "Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Contract": "1.0.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.dll": {}
-        }
-      },
       "WebApiSoftplan1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
-          "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3"
         },
         "compile": {
@@ -260,33 +227,6 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
@@ -350,16 +290,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Contract/1.0.0": {
-      "type": "project",
-      "path": "../Contract/Contract.csproj",
-      "msbuildProject": "../Contract/Contract.csproj"
-    },
-    "Services/1.0.0": {
-      "type": "project",
-      "path": "../Repositories/Services.csproj",
-      "msbuildProject": "../Repositories/Services.csproj"
-    },
     "WebApiSoftplan1/1.0.0": {
       "type": "project",
       "path": "../WebApiSoftplan1/WebApiSoftplan1.csproj",
@@ -368,8 +298,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
-      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "WebApiSoftplan1 >= 1.0.0"
     ]
@@ -380,11 +310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\WebApiSoftplan2\\WebApiSoftplan2.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan2\\WebApiSoftplan2.csproj",
       "projectName": "WebApiSoftplan2",
-      "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\WebApiSoftplan2\\WebApiSoftplan2.csproj",
+      "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan2\\WebApiSoftplan2.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\WebApiSoftplan2\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -401,11 +331,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj": {
-              "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\Repositories\\Services.csproj"
+            "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj": {
+              "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj"
             },
-            "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj": {
-              "projectPath": "C:\\Users\\pedro\\source\\repos\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj"
+            "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj": {
+              "projectPath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj"
             }
           }
         }
@@ -450,5 +380,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Repositories\\Services.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
