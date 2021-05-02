@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6XLalsKzp9mwBMOrp2f6EqbQ4EPP4LEoffY/hpwsEgC4KclwqwBimDkwvLiZBBkNNgZtq+XajL9yG+f5f6jJMA==",
+  "dgSpecHash": "55+uXcfu393W6uf7G0YvJF729SB9StBYCDzIXe14FZ7CQFz2G6YcDVqMi9buyHqPQdoOQ1Sj22hLsmRvC1glow==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\Services\\Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.5\\microsoft.aspnetcore.testhost.5.0.5.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

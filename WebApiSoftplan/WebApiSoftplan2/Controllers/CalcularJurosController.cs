@@ -1,24 +1,30 @@
 ﻿using Contract.Models.CalculoJuros.Result;
+using Contract.Models.TaxaJuros.Result;
+using Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Services.CalculoJuros;
 using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace WebApiSoftplan.Controllers
 {
     [ApiController]
     [Route("api/[controller]/{valorInicial}&{tempo}")]
-    public class CalcularJurosController : ControllerBase
+    public class CalcularJurosController : Controller
     {
         private readonly ILogger<CalcularJurosController> _logger;
         private readonly ICalculoJurosService _calculoJurosService;
+        private readonly ApiGetter _apiGetter;
 
-        public CalcularJurosController(ILogger<CalcularJurosController> logger, ICalculoJurosService calculoJurosService)
+        public CalcularJurosController(ILogger<CalcularJurosController> logger, ICalculoJurosService calculoJurosService,
+            HttpClient client, ApiGetter apiGetter)
         {
             _logger = logger;
             _calculoJurosService = calculoJurosService;
+            _apiGetter = apiGetter;
         }
 
         /// <summary>
@@ -35,7 +41,8 @@ namespace WebApiSoftplan.Controllers
             _logger.LogInformation("Calcular Juros", "Iniciando");
             try
             {
-                var valorCalculado = await _calculoJurosService.GerarCalculo(valorInicial, tempo);
+                var taxa = await _apiGetter.Get<TaxaJurosResult>("https://localhost:44367/api/RetornarTaxaJuros/");
+                var valorCalculado = _calculoJurosService.GerarCalculo(valorInicial, tempo, taxa.ValorTaxa);
                 CalculoJurosResult result = new()
                 {
                     Valor = valorCalculado,

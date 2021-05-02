@@ -1,21 +1,10 @@
-﻿using Contract.Models.TaxaJuros.Result;
-using Newtonsoft.Json;
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace Services.CalculoJuros
 {
     public class CalculoJurosService : ICalculoJurosService
     {
-        private readonly HttpClient _httpClient;
-
-        public CalculoJurosService(HttpClient httpClient)
-        {
-            _httpClient = httpClient;
-        }
-
-        public async Task<double> GerarCalculo(double valorInicial, int tempo)
+        public double GerarCalculo(double valorInicial, int tempo, double taxa)
         {
             if (valorInicial <= 0)
             {
@@ -27,16 +16,12 @@ namespace Services.CalculoJuros
                 throw new Exception("Tempo não informado corretamente");
             }
 
-            var response = await _httpClient.GetAsync("https://localhost:44367/api/RetornarTaxaJuros/");
-
-            if (!response.IsSuccessStatusCode)
+            if (taxa <= 0)
             {
-                throw new Exception("Não foi possível realizar a busca de taxa");
+                throw new Exception("Taxa não informada corretamente");
             }
 
-            var json = await response.Content.ReadAsStringAsync();
-            var taxa = JsonConvert.DeserializeObject<TaxaJurosResult>(json);
-            var taxaMensal = taxa.ValorTaxa / 100;
+            var taxaMensal = taxa / 100;
             double valorFinal = valorInicial;
             double jurosMes;
 

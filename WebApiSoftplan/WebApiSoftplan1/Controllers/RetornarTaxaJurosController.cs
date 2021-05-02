@@ -10,7 +10,7 @@ namespace WebApiSoftplan.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RetornarTaxaJurosController : ControllerBase
+    public class RetornarTaxaJurosController : Controller
     {
         private readonly ILogger<RetornarTaxaJurosController> _logger;
         private readonly ITaxaJurosService _taxaJurosService;
@@ -27,6 +27,7 @@ namespace WebApiSoftplan.Controllers
         /// <returns>Retorna a tax fixa de juros</returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<TaxaJurosResult> GetAsync()
         {
             _logger.LogInformation("Retorno Taxa", "Iniciando");

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ttH7IyDrbROaIyhnml39gOV8CDVpKtzwsfsqt43Sl2Z4LGzSgo7WiRjQbZmilce1A3V2YaPIsuA5Z5ID6Vejmg==",
+  "dgSpecHash": "wVj/izT4tcaSp0adArIynDnzKAHWHC8oWj4/khH5SA8J+ZWPfyxF8/k15m15FfGYm4MZ6v9KZhYYVAHIhMjibw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\Documents\\WebApiSoftplan\\WebApiSoftplan\\WebApiSoftplan1\\WebApiSoftplan1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.5\\microsoft.aspnetcore.testhost.5.0.5.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
@@ -11,7 +12,8 @@
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\pedro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
